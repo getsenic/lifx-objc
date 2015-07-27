@@ -17,10 +17,12 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/LIFX/LIFXKit.git", :tag => "v0.6.1" }
   
   s.public_header_files = 'LIFXKit/LIFXKit.h', 'LIFXKit/Classes-Common/LFX{Client,NetworkContext,Light,LightCollection,TaggedLightCollection,Types,HSBKColor,Target,Device}.h'
-  s.ios.source_files  = 'LIFXKit/Classes-Common/*.{h,m}', 'LIFXKit/Classes-iOS/*.{h,m}', 'LIFXKit/Extensions/LFXExtensions.h', 'LIFXKit/Extensions/{Categories-Cocoa,Categories-UIKit,Functions,Macros}/*.{h,m}', 'LIFXKit/CocoaAsyncSocket/GCD/*.{h,m}', 'LIFXKit/LIFXKit.h'
-  s.osx.source_files  = 'LIFXKit/Classes-Common/*.{h,m}', 'LIFXKit/Classes-OSX/*.{h,m}', 'LIFXKit/Extensions/LFXExtensions.h', 'LIFXKit/Extensions/{Categories-Cocoa,Functions,Macros}/*.{h,m}', 'LIFXKit/CocoaAsyncSocket/GCD/*.{h,m}', 'LIFXKit/LIFXKit.h'
+  s.ios.source_files  = 'LIFXKit/Classes-Common/*.{h,m}', 'LIFXKit/Classes-iOS/*.{h,m}', 'LIFXKit/Extensions/LFXExtensions.h', 'LIFXKit/Extensions/{Categories-Cocoa,Categories-UIKit,Functions,Macros}/*.{h,m}', 'LIFXKit/LIFXKit.h'
+  s.osx.source_files  = 'LIFXKit/Classes-Common/*.{h,m}', 'LIFXKit/Classes-OSX/*.{h,m}', 'LIFXKit/Extensions/LFXExtensions.h', 'LIFXKit/Extensions/{Categories-Cocoa,Functions,Macros}/*.{h,m}', 'LIFXKit/LIFXKit.h'
 
   s.frameworks    = 'SystemConfiguration'
   s.libraries     = 'z'
   s.requires_arc = true
+
+  s.dependency 'CocoaAsyncSocket', "~> 7.3"
 end

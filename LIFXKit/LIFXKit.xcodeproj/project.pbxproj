@@ -46,8 +46,6 @@
 		017EED0519063B0900D1E459 /* LFXMessageRateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 017EED0319063B0900D1E459 /* LFXMessageRateManager.h */; };
 		017EED0619063B0900D1E459 /* LFXMessageRateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 017EED0419063B0900D1E459 /* LFXMessageRateManager.m */; };
 		01A9105118D027B200AD0A54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A9105018D027B200AD0A54 /* Foundation.framework */; };
-		01A911E818D035BF00AD0A54 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A9107C18D035A900AD0A54 /* GCDAsyncSocket.m */; };
-		01A911E918D035C100AD0A54 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A9107E18D035A900AD0A54 /* GCDAsyncUdpSocket.m */; };
 		01A9122A18D037DF00AD0A54 /* LFXAllLightsCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A911EB18D037DF00AD0A54 /* LFXAllLightsCollection.m */; };
 		01A9122B18D037DF00AD0A54 /* LFXBinaryPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A911ED18D037DF00AD0A54 /* LFXBinaryPath.m */; };
 		01A9122C18D037DF00AD0A54 /* LFXBinaryTargetID.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A911EF18D037DF00AD0A54 /* LFXBinaryTargetID.m */; };
@@ -192,8 +190,6 @@
 		838EE97719062958006080E1 /* LFXGCDFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A9127718D03A5100AD0A54 /* LFXGCDFunctions.m */; };
 		838EE9781906295C006080E1 /* LFXRuntimeFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A9127918D03A5100AD0A54 /* LFXRuntimeFunctions.m */; };
 		838EE97919062961006080E1 /* LFXMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A9127C18D03A5100AD0A54 /* LFXMacros.m */; };
-		838EE97A1906296D006080E1 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A9107C18D035A900AD0A54 /* GCDAsyncSocket.m */; };
-		838EE97B19062971006080E1 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A9107E18D035A900AD0A54 /* GCDAsyncUdpSocket.m */; };
 		838EE98419062BE4006080E1 /* LFXClientDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 838EE98219062BE4006080E1 /* LFXClientDevice.h */; };
 		838EE98519062BE4006080E1 /* LFXClientDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 838EE98219062BE4006080E1 /* LFXClientDevice.h */; };
 		838EE98619062BE4006080E1 /* LFXClientDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 838EE98319062BE4006080E1 /* LFXClientDevice.m */; };
@@ -220,6 +216,8 @@
 		9368EB87193EF2C4004D7792 /* LFXUntaggedLightsCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9368EB84193EF2C4004D7792 /* LFXUntaggedLightsCollection.h */; };
 		9368EB88193EF2C4004D7792 /* LFXUntaggedLightsCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368EB85193EF2C4004D7792 /* LFXUntaggedLightsCollection.m */; };
 		9368EB89193EF2C4004D7792 /* LFXUntaggedLightsCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368EB85193EF2C4004D7792 /* LFXUntaggedLightsCollection.m */; };
+		A10126DB5CDB56CF9AB11865 /* libPods-LIFXKit iOS Static Library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68545698A11B2B1A42DB23CB /* libPods-LIFXKit iOS Static Library.a */; };
+		B002764CBC4803C32934DE75 /* libPods-LIFXKit OS X Static Library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1075DEA7A830385F7C8F5F /* libPods-LIFXKit OS X Static Library.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -280,16 +278,6 @@
 		01A9105418D027B200AD0A54 /* LIFXKit-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LIFXKit-iOS-Prefix.pch"; sourceTree = "<group>"; };
 		01A9105E18D027B200AD0A54 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		01A9106118D027B200AD0A54 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		01A9107A18D035A900AD0A54 /* Documentation.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Documentation.html; sourceTree = "<group>"; };
-		01A9107B18D035A900AD0A54 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
-		01A9107C18D035A900AD0A54 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
-		01A9107D18D035A900AD0A54 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		01A9107E18D035A900AD0A54 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		01A9115D18D035AA00AD0A54 /* AsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
-		01A9115E18D035AA00AD0A54 /* AsyncSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
-		01A9115F18D035AA00AD0A54 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
-		01A9116018D035AA00AD0A54 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
-		01A9116118D035AA00AD0A54 /* Documentation.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Documentation.html; sourceTree = "<group>"; };
 		01A911EA18D037DF00AD0A54 /* LFXAllLightsCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFXAllLightsCollection.h; sourceTree = "<group>"; };
 		01A911EB18D037DF00AD0A54 /* LFXAllLightsCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFXAllLightsCollection.m; sourceTree = "<group>"; };
 		01A911EC18D037DF00AD0A54 /* LFXBinaryPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFXBinaryPath.h; sourceTree = "<group>"; };
@@ -383,10 +371,12 @@
 		01E87ED61925AFED00C7D674 /* LFXDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFXDevice.m; sourceTree = "<group>"; };
 		01E87EDD1925B01600C7D674 /* LFXDevice+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LFXDevice+Private.h"; sourceTree = "<group>"; };
 		01F1805118DA9E590030CCF6 /* LFXClient+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LFXClient+Private.h"; sourceTree = "<group>"; };
+		0299C29C7A0EBD1830B98DCE /* Pods-LIFXKit iOS Static Library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIFXKit iOS Static Library.release.xcconfig"; path = "Pods/Target Support Files/Pods-LIFXKit iOS Static Library/Pods-LIFXKit iOS Static Library.release.xcconfig"; sourceTree = "<group>"; };
 		5F446BA819B02B4700C2718B /* LFXWiFiObserverOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFXWiFiObserverOSX.h; sourceTree = "<group>"; };
 		5F446BA919B02B4700C2718B /* LFXWiFiObserverOSX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFXWiFiObserverOSX.m; sourceTree = "<group>"; };
 		5F446BAA19B02B7100C2718B /* LFXWiFiObserverIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFXWiFiObserverIOS.h; sourceTree = "<group>"; };
 		5F446BAB19B02B7100C2718B /* LFXWiFiObserverIOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFXWiFiObserverIOS.m; sourceTree = "<group>"; };
+		68545698A11B2B1A42DB23CB /* libPods-LIFXKit iOS Static Library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LIFXKit iOS Static Library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		833F34441908D212007305BB /* LFXHSBKColor+UIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LFXHSBKColor+UIKit.h"; sourceTree = "<group>"; };
 		833F34451908D212007305BB /* LFXHSBKColor+UIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LFXHSBKColor+UIKit.m"; sourceTree = "<group>"; };
 		833F34491908D34A007305BB /* UIApplication+LFXExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+LFXExtensions.h"; sourceTree = "<group>"; };
@@ -420,6 +410,10 @@
 		83F055B21908BD120014E370 /* Version.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Version.xcconfig; sourceTree = "<group>"; };
 		9368EB84193EF2C4004D7792 /* LFXUntaggedLightsCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFXUntaggedLightsCollection.h; sourceTree = "<group>"; };
 		9368EB85193EF2C4004D7792 /* LFXUntaggedLightsCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFXUntaggedLightsCollection.m; sourceTree = "<group>"; };
+		9AF387B66C4199E02BFF3BCD /* Pods-LIFXKit iOS Static Library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIFXKit iOS Static Library.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LIFXKit iOS Static Library/Pods-LIFXKit iOS Static Library.debug.xcconfig"; sourceTree = "<group>"; };
+		BF8A573358FA851BFA31662E /* Pods-LIFXKit OS X Static Library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIFXKit OS X Static Library.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LIFXKit OS X Static Library/Pods-LIFXKit OS X Static Library.debug.xcconfig"; sourceTree = "<group>"; };
+		CD096C449DF7F97B5FFB900F /* Pods-LIFXKit OS X Static Library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIFXKit OS X Static Library.release.xcconfig"; path = "Pods/Target Support Files/Pods-LIFXKit OS X Static Library/Pods-LIFXKit OS X Static Library.release.xcconfig"; sourceTree = "<group>"; };
+		EC1075DEA7A830385F7C8F5F /* libPods-LIFXKit OS X Static Library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LIFXKit OS X Static Library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -428,6 +422,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01A9105118D027B200AD0A54 /* Foundation.framework in Frameworks */,
+				A10126DB5CDB56CF9AB11865 /* libPods-LIFXKit iOS Static Library.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +431,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				838EE915190626E6006080E1 /* Cocoa.framework in Frameworks */,
+				B002764CBC4803C32934DE75 /* libPods-LIFXKit OS X Static Library.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,10 +669,10 @@
 				5F446BA719B02B4700C2718B /* Classes-OSX */,
 				01A9125518D03A5100AD0A54 /* Extensions */,
 				01A9105318D027B200AD0A54 /* Supporting Files */,
-				01A9107618D0359D00AD0A54 /* Libraries */,
 				83A18381190890FE00CBF7E4 /* LIFXKitOSXFramework */,
 				01A9104F18D027B200AD0A54 /* Frameworks */,
 				01A9104E18D027B200AD0A54 /* Products */,
+				269DFBB9661FE5FADC2BE808 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -699,6 +695,8 @@
 				01A9106118D027B200AD0A54 /* UIKit.framework */,
 				838EE914190626E6006080E1 /* Cocoa.framework */,
 				838EE916190626E6006080E1 /* Other Frameworks */,
+				EC1075DEA7A830385F7C8F5F /* libPods-LIFXKit OS X Static Library.a */,
+				68545698A11B2B1A42DB23CB /* libPods-LIFXKit iOS Static Library.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -722,47 +720,6 @@
 				83A18389190893F200CBF7E4 /* LIFXKit-OSX-Prefix.pch */,
 			);
 			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		01A9107618D0359D00AD0A54 /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				01A9107718D035A900AD0A54 /* CocoaAsyncSocket */,
-			);
-			name = Libraries;
-			sourceTree = "<group>";
-		};
-		01A9107718D035A900AD0A54 /* CocoaAsyncSocket */ = {
-			isa = PBXGroup;
-			children = (
-				01A9107918D035A900AD0A54 /* GCD */,
-				01A9115C18D035AA00AD0A54 /* RunLoop */,
-			);
-			path = CocoaAsyncSocket;
-			sourceTree = "<group>";
-		};
-		01A9107918D035A900AD0A54 /* GCD */ = {
-			isa = PBXGroup;
-			children = (
-				01A9107A18D035A900AD0A54 /* Documentation.html */,
-				01A9107B18D035A900AD0A54 /* GCDAsyncSocket.h */,
-				01A9107C18D035A900AD0A54 /* GCDAsyncSocket.m */,
-				01A9107D18D035A900AD0A54 /* GCDAsyncUdpSocket.h */,
-				01A9107E18D035A900AD0A54 /* GCDAsyncUdpSocket.m */,
-			);
-			path = GCD;
-			sourceTree = "<group>";
-		};
-		01A9115C18D035AA00AD0A54 /* RunLoop */ = {
-			isa = PBXGroup;
-			children = (
-				01A9115D18D035AA00AD0A54 /* AsyncSocket.h */,
-				01A9115E18D035AA00AD0A54 /* AsyncSocket.m */,
-				01A9115F18D035AA00AD0A54 /* AsyncUdpSocket.h */,
-				01A9116018D035AA00AD0A54 /* AsyncUdpSocket.m */,
-				01A9116118D035AA00AD0A54 /* Documentation.html */,
-			);
-			path = RunLoop;
 			sourceTree = "<group>";
 		};
 		01A9125518D03A5100AD0A54 /* Extensions */ = {
@@ -840,6 +797,17 @@
 				01F1805118DA9E590030CCF6 /* LFXClient+Private.h */,
 			);
 			name = Private;
+			sourceTree = "<group>";
+		};
+		269DFBB9661FE5FADC2BE808 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF8A573358FA851BFA31662E /* Pods-LIFXKit OS X Static Library.debug.xcconfig */,
+				CD096C449DF7F97B5FFB900F /* Pods-LIFXKit OS X Static Library.release.xcconfig */,
+				9AF387B66C4199E02BFF3BCD /* Pods-LIFXKit iOS Static Library.debug.xcconfig */,
+				0299C29C7A0EBD1830B98DCE /* Pods-LIFXKit iOS Static Library.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		5F446BA719B02B4700C2718B /* Classes-OSX */ = {
@@ -1027,11 +995,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01A9107018D027B200AD0A54 /* Build configuration list for PBXNativeTarget "LIFXKit iOS Static Library" */;
 			buildPhases = (
+				0DF65A786AA2DF52790074D1 /* Check Pods Manifest.lock */,
 				01A9104918D027B200AD0A54 /* Sources */,
 				01A9104A18D027B200AD0A54 /* Frameworks */,
 				01A9104B18D027B200AD0A54 /* CopyFiles */,
 				01A912E118D1558500AD0A54 /* Headers */,
 				83E9F63519079DA000B2D79A /* Prepare Framework */,
+				BEB6F77CDD3B29A11DF09AA7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1046,9 +1016,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 838EE932190626E7006080E1 /* Build configuration list for PBXNativeTarget "LIFXKit OS X Static Library" */;
 			buildPhases = (
+				F59B3396A3CCB89F0C2A6C85 /* Check Pods Manifest.lock */,
 				838EE90F190626E6006080E1 /* Sources */,
 				838EE910190626E6006080E1 /* Frameworks */,
 				838EE911190626E6006080E1 /* Headers */,
+				80A118311F9EEAF8CE539E83 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1121,6 +1093,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0DF65A786AA2DF52790074D1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		80A118311F9EEAF8CE539E83 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LIFXKit OS X Static Library/Pods-LIFXKit OS X Static Library-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		83E9F63519079DA000B2D79A /* Prepare Framework */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1148,6 +1150,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Build fat static lib framework\n#\n# Based on https://github.com/jverkoey/iOS-Framework\n#\n\nset -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=\"LIFXKit\"\nSF_EXECUTABLE_PATH=\"libLIFXKit.a\"\nSF_WRAPPER_NAME=\"LIFXKit.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nxcrun lipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n";
+		};
+		BEB6F77CDD3B29A11DF09AA7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LIFXKit iOS Static Library/Pods-LIFXKit iOS Static Library-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F59B3396A3CCB89F0C2A6C85 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1188,8 +1220,6 @@
 				833F34561908D34A007305BB /* UIApplication+LFXExtensions.m in Sources */,
 				01A9123B18D037DF00AD0A54 /* LFXRoutingTable.m in Sources */,
 				01A9123C18D037DF00AD0A54 /* LFXSiteID.m in Sources */,
-				01A911E818D035BF00AD0A54 /* GCDAsyncSocket.m in Sources */,
-				01A911E918D035C100AD0A54 /* GCDAsyncUdpSocket.m in Sources */,
 				01BEF4481953F76D001A398B /* LFXAdHocLightCollection.m in Sources */,
 				833F34601908D34A007305BB /* UIView+LFXExtensions.m in Sources */,
 				01A9123718D037DF00AD0A54 /* LFXMessage.m in Sources */,
@@ -1231,14 +1261,12 @@
 			files = (
 				838EE94619062853006080E1 /* LFXRoutingTable.m in Sources */,
 				0165139B1927529000DF269B /* LFXWeakObjectProxy.m in Sources */,
-				838EE97B19062971006080E1 /* GCDAsyncUdpSocket.m in Sources */,
 				0165138F19272EF100DF269B /* LFXRequestTask.m in Sources */,
 				838EE9451906284C006080E1 /* LFXGatewayDiscoveryTableEntry.m in Sources */,
 				838EE9671906293E006080E1 /* NSAttributedString+LFXExtensions.m in Sources */,
 				838EE955190628FC006080E1 /* LFXSiteID.m in Sources */,
 				838EE94E19062886006080E1 /* LFXAllLightsCollection.m in Sources */,
 				838EE939190627AC006080E1 /* LFXClient.m in Sources */,
-				838EE97A1906296D006080E1 /* GCDAsyncSocket.m in Sources */,
 				83E9F633190792DA00B2D79A /* LFXMessageRateManager.m in Sources */,
 				9368EB89193EF2C4004D7792 /* LFXUntaggedLightsCollection.m in Sources */,
 				01BEF4491953F76D001A398B /* LFXAdHocLightCollection.m in Sources */,
@@ -1398,13 +1426,17 @@
 		};
 		01A9107118D027B200AD0A54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AF387B66C4199E02BFF3BCD /* Pods-LIFXKit iOS Static Library.debug.xcconfig */;
 			buildSettings = {
 				CLANG_STATIC_ANALYZER_MODE = deep;
 				DEAD_CODE_STRIPPING = NO;
 				DSTROOT = /tmp/LIFX_SDK_Obj_C.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supporting Files/LIFXKit-iOS-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = LIFXKit;
 				PUBLIC_HEADERS_FOLDER_PATH = include/LIFXKit;
 				SKIP_INSTALL = YES;
@@ -1414,13 +1446,17 @@
 		};
 		01A9107218D027B200AD0A54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0299C29C7A0EBD1830B98DCE /* Pods-LIFXKit iOS Static Library.release.xcconfig */;
 			buildSettings = {
 				CLANG_STATIC_ANALYZER_MODE = deep;
 				DEAD_CODE_STRIPPING = NO;
 				DSTROOT = /tmp/LIFX_SDK_Obj_C.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supporting Files/LIFXKit-iOS-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = LIFXKit;
 				PUBLIC_HEADERS_FOLDER_PATH = include/LIFXKit;
 				SKIP_INSTALL = YES;
@@ -1430,6 +1466,7 @@
 		};
 		838EE933190626E7006080E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF8A573358FA851BFA31662E /* Pods-LIFXKit OS X Static Library.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1453,6 +1490,7 @@
 		};
 		838EE934190626E7006080E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD096C449DF7F97B5FFB900F /* Pods-LIFXKit OS X Static Library.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
