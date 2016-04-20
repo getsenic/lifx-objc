@@ -7,7 +7,7 @@
 //
 
 #import "LFXTCPGatewayConnection.h"
-#import <GCDAsyncSocket.h>
+#import "GCDAsyncSocket.h"
 #import "LFXMessage.h"
 #import "LXProtocol.h"
 #import "LFXExtensions.h"
