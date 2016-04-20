@@ -82,7 +82,7 @@
 	// Note - if NSUInteger is smaller than _bytes (which is the case on 32-bit platforms),
 	// this may be a poor quality hash function.
 	NSUInteger hash = 0;
-	memcpy(&hash, _bytes, MAX(sizeof(_bytes), sizeof(NSUInteger)));
+	memcpy(&hash, _bytes, MIN(sizeof(_bytes), sizeof(NSUInteger)));
 	return hash;
 }
 
