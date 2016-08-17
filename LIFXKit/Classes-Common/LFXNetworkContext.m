@@ -158,7 +158,7 @@ NSString * const LFXNetworkContextTypeLocal = @"LFXNetworkContextTypeLocal";
 			[self.allLightsCollection lfx_removeLight:light];
 		}
 	}
-	else if (light == nil && message.messageType == LX_PROTOCOL_LIGHT_STATE)
+	else if (light == nil && message.messageSource == LFXMessageSourceDevice)
 	{
 		light = [LFXLight lightWithDeviceID:deviceID networkContext:self];
 		[light handleMessage:message];
